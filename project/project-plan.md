@@ -3,7 +3,7 @@
 ## Summary
 
 <!-- Describe your data science project in max. 5 sentences. -->
-This projects analyzes the density of public Electric Vehicle Supply Equipment (EVSE) in comparison with population and traffic density.
+This projects analyzes the density of public Electric Vehicle Supply Equipment (EVSE) in comparison with the population density.
 
 ## Rationale
 
@@ -15,11 +15,18 @@ The analysis helps to get an overview of the coverage of EVSEs in Germany and if
 <!-- Describe each datasources you plan to use in a section. Use the prefic "DatasourceX" where X is the id of the datasource. -->
 
 ### Datasource1: Map of all EVSEs in Germany
-* Metadata URL: [https://mobilithek.info/offers/-6901989592576801458](https://mobilithek.info/offers/-2989425250318611078)
-* Data URL: [https://raw.githubusercontent.com/od-ms/radverkehr-zaehlstellen/main/100035541/2019-01.csv](https://opendata.rhein-kreis-neuss.de/api/v2/catalog/datasets/rhein-kreis-neuss-ladesaulen-in-deutschland/exports/csv)
+* Metadata URL: [https://mobilithek.info/offers/-2989425250318611078](https://mobilithek.info/offers/-2989425250318611078)
+* Data URL: [https://opendata.rhein-kreis-neuss.de/api/v2/catalog/datasets/rhein-kreis-neuss-ladesaulen-in-deutschland/exports/csv](https://opendata.rhein-kreis-neuss.de/api/v2/catalog/datasets/rhein-kreis-neuss-ladesaulen-in-deutschland/exports/csv)
 * Data Type: CSV
 
 This is a list of all public EVSEs in Germany. It contains the capacity of the EVSE, the operating company and the location.
+
+### Datasource2: List of administrative disctricts in Germany
+* Metadata URL: [https://www.govdata.de/web/guest/suchen/-/details/gemeindeverzeichnis-kreisfreie-stadte-und-landkreise](https://www.govdata.de/web/guest/suchen/-/details/gemeindeverzeichnis-kreisfreie-stadte-und-landkreise)
+* Data URL: [https://www.destatis.de/DE/Themen/Laender-Regionen/Regionales/Gemeindeverzeichnis/Administrativ/04-kreise.xlsx?__blob=publicationFile](https://www.destatis.de/DE/Themen/Laender-Regionen/Regionales/Gemeindeverzeichnis/Administrativ/04-kreise.xlsx?__blob=publicationFile)
+* Data Type: CSV
+
+The list of districts contains an area code, the assigned area size and population count.
 
 ## Work Packages
 
