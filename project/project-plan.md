@@ -32,7 +32,11 @@ The list of districts contains an area code, the assigned area size and populati
 
 <!-- List of work packages ordered sequentially, each pointing to an issue with more details. -->
 
-1. Example Issue [#1][i1]
-2. ...
+1. [Adding more description to raw CSV data sources](https://github.com/uj73yxun/2023-amse-template/issues/1)
+2. [Normalizing CSV datasets in the repository](https://github.com/uj73yxun/2023-amse-template/issues/2)
+3. [Creating an Automated Data Pipeline for CSV to SQLite Conversion](https://github.com/uj73yxun/2023-amse-template/issues/3)
+4. [Creating Automated Testing for the Data Pipeline](https://github.com/uj73yxun/2023-amse-template/issues/4)
+5. [Packaging the Data Pipeline into a Continuous Integration System](https://github.com/uj73yxun/2023-amse-template/issues/5)
+6. [Evaluate data and publish results to GitHub pages](https://github.com/uj73yxun/2023-amse-template/issues/6)
 
 [i1]: https://github.com/jvalue/2023-amse-template/issues/1
